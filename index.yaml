@@ -3,7 +3,7 @@ entries:
   jenkins-operator:
   - apiVersion: v2
     appVersion: 2.11.0-SNAPSHOT.17
-    created: "2022-03-07T19:39:45.117589+02:00"
+    created: "2022-03-07T22:29:05.208318+02:00"
     description: A Helm chart for EDP Jenkins Operator
     digest: 490efbd41dfb8012abc5b6f93b04a43d76df8553b9b5b39bdfe181cdce32284a
     home: https://solutionshub.epam.com/solution/epam-delivery-platform
@@ -18,7 +18,7 @@ entries:
     version: 2.11.0-SNAPSHOT.17
   - apiVersion: v2
     appVersion: 2.11.0-SNAPSHOT.16
-    created: "2022-03-07T19:39:45.116529+02:00"
+    created: "2022-03-07T22:29:05.206096+02:00"
     description: A Helm chart for EDP Jenkins Operator
     digest: 02b7fe27ead7b2a02cfbc221efabc1241ea350ebb55853bff78e6163615f4bf0
     home: https://solutionshub.epam.com/solution/epam-delivery-platform
@@ -33,7 +33,7 @@ entries:
     version: 2.11.0-SNAPSHOT.16
   - apiVersion: v2
     appVersion: 2.11.0-SNAPSHOT.15
-    created: "2022-03-07T19:39:45.115575+02:00"
+    created: "2022-03-07T22:29:05.203964+02:00"
     description: A Helm chart for EDP Jenkins Operator
     digest: 3d6a9ad4e00d25e6d9665281d6ce69d86a0e72cd53a26920921b77a0ba0f7d83
     home: https://solutionshub.epam.com/solution/epam-delivery-platform
@@ -48,7 +48,7 @@ entries:
     version: 2.11.0-SNAPSHOT.15
   - apiVersion: v2
     appVersion: 2.11.0-SNAPSHOT.14
-    created: "2022-03-07T19:39:45.114711+02:00"
+    created: "2022-03-07T22:29:05.202207+02:00"
     description: A Helm chart for EDP Jenkins Operator
     digest: afc3f02c818d482a47c0e950c6d43a348c135db68bf082494c2759f0c3d0d142
     home: https://solutionshub.epam.com/solution/epam-delivery-platform
@@ -61,6 +61,21 @@ entries:
     urls:
     - https://artem-zahumonnyi.github.io/test-helm-repo/jenkins/jenkins-operator-2.11.0-SNAPSHOT.14.tgz
     version: 2.11.0-SNAPSHOT.14
+  - apiVersion: v2
+    appVersion: 2.10.0
+    created: "2022-03-07T22:29:05.199971+02:00"
+    description: A Helm chart for EDP Jenkins Operator
+    digest: bebd7dac49ebabb5e8e1ba364a02a4ee741657e263889366d0d2acd2d7325c9a
+    home: https://solutionshub.epam.com/solution/epam-delivery-platform
+    maintainers:
+    - name: EPAM EDP Team
+    name: jenkins-operator
+    sources:
+    - https://github.com/epam/edp-jenkins-operator
+    type: application
+    urls:
+    - https://artem-zahumonnyi.github.io/test-helm-repo/jenkins/jenkins-operator-2.10.0.tgz
+    version: 2.10.0
   sonar-operator:
   - annotations:
       artifacthub.io/crds: |
@@ -141,7 +156,7 @@ entries:
       artifacthub.io/operatorCapabilities: Full Lifecycle
     apiVersion: v2
     appVersion: 2.11.0-SNAPSHOT.47
-    created: "2022-03-07T19:39:45.121372+02:00"
+    created: "2022-03-07T22:29:05.214128+02:00"
     description: A Helm chart for EDP Sonar Operator
     digest: 1933e0cbf6d5b8ebfc04fc4fce9403f3675a0b6a2c50c7739c9fe8ca43fca958
     home: https://epam.github.io/edp-install/
@@ -243,7 +258,7 @@ entries:
       artifacthub.io/operatorCapabilities: Full Lifecycle
     apiVersion: v2
     appVersion: 2.11.0-SNAPSHOT.44
-    created: "2022-03-07T19:39:45.120473+02:00"
+    created: "2022-03-07T22:29:05.21237+02:00"
     description: A Helm chart for EDP Sonar Operator
     digest: c93bb6e2f7b00c456adbf12cd7da6967670730156be9feff574a1ea7f09aebe5
     home: https://epam.github.io/edp-install/
@@ -345,7 +360,7 @@ entries:
       artifacthub.io/operatorCapabilities: Full Lifecycle
     apiVersion: v2
     appVersion: 2.11.0-SNAPSHOT.43
-    created: "2022-03-07T19:39:45.119491+02:00"
+    created: "2022-03-07T22:29:05.210588+02:00"
     description: A Helm chart for EDP Sonar Operator
     digest: 5f32893c4b275b48e740854691402c71a3a51362cfd65ecf6d45bcd0a657ba70
     home: https://epam.github.io/edp-install/
@@ -368,4 +383,4 @@ entries:
     urls:
     - https://artem-zahumonnyi.github.io/test-helm-repo/sonar/sonar-operator-2.11.0-SNAPSHOT.43.tgz
     version: 2.11.0-SNAPSHOT.43
-generated: "2022-03-07T19:39:45.113779+02:00"
+generated: "2022-03-07T22:29:05.198614+02:00"
